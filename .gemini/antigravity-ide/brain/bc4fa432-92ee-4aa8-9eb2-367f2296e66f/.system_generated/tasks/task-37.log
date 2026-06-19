@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-18T22:09:25+05:30
+Prompt: Check if agents-cli scaffold create is done
+
+[2026-06-18T22:09:15+05:30] Timer cancelled: agent received a message during wait.

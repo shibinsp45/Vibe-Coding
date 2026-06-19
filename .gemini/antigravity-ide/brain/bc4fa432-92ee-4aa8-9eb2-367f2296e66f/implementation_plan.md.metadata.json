@@ -1,0 +1,6 @@
+{
+  "artifactType": "ARTIFACT_TYPE_IMPLEMENTATION_PLAN",
+  "summary": "Updated implementation plan for the ambient expense-approval agent adding a security checkpoint to scrub PII and defend against prompt injection.",
+  "updatedAt": "2026-06-18T16:45:41.528926400Z",
+  "requestFeedback": true
+}

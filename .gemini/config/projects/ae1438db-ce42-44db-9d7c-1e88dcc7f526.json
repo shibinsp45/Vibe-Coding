@@ -1,0 +1,17 @@
+{
+  "id":  "ae1438db-ce42-44db-9d7c-1e88dcc7f526",
+  "name":  "Vibe Coding",
+  "projectResources":  {
+    "resources":  [
+      {
+        "folderUri":  "file:///c%3A/Users/NETCOM/Desktop/Vibe%20Coding"
+      }
+    ]
+  },
+  "settings":  {
+    "fileAccessPolicy":  "AGENT_SETTING_POLICY_ALLOW",
+    "internetPolicy":  "AGENT_SETTING_POLICY_ASK",
+    "autoExecutionPolicy":  "CASCADE_COMMANDS_AUTO_EXECUTION_OFF",
+    "artifactReviewMode":  "ARTIFACT_REVIEW_MODE_ALWAYS"
+  }
+}

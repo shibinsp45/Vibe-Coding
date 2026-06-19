@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-18T19:07:03+05:30
+Prompt: Check if agents-cli login has output a URL
+
+[2026-06-18T19:06:53+05:30] Timer cancelled: agent received a message during wait.

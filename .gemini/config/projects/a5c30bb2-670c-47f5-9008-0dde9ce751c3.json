@@ -1,0 +1,18 @@
+{
+  "id":  "a5c30bb2-670c-47f5-9008-0dde9ce751c3",
+  "name":  "C:\\Users\\NETCOM\\agy-cli-projects",
+  "projectResources":  {
+    "resources":  [
+      {
+        "folderUri":  "file://C:/Users/NETCOM/agy-cli-projects"
+      }
+    ]
+  },
+  "permissionGrants":  {
+    "permissionGrants":  {
+      "allow":  [
+        "read_file(C:\\Users\\NETCOM\\.gemini\\antigravity\\mcp_config.json)"
+      ]
+    }
+  }
+}

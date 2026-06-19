@@ -1,0 +1,7 @@
+Warning: Could not obtain credentials: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Querying remote agent: http://127.0.0.1:8080 (mode: adk)
+[user]: {"data": {"amount": 150.0, "submitter": "alice@company.com", "category": "software", "description": "IDE License", "date": "2026-06-06"}}
+
+
+Session: 8c18534a-946c-403a-b54e-5a24cc4cae5e
+  Resume with: agents-cli run "<message>" --session-id 8c18534a-946c-403a-b54e-5a24cc4cae5e

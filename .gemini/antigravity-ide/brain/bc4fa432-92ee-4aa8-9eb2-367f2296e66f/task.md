@@ -1,0 +1,21 @@
+- [x] Rename `app` to `expense_agent` and update config
+    - [x] Create `expense_agent/` directory
+    - [x] Create `expense_agent/__init__.py`
+    - [x] Create `expense_agent/config.json`
+    - [x] Create `expense_agent/fast_api_app.py`
+    - [x] Update `agents-cli-manifest.yaml`
+    - [x] Update `pyproject.toml`
+    - [x] Delete `app/` folder
+- [x] Implement Graph Workflow in `expense_agent/agent.py`
+    - [x] Import modules and set up config loading
+    - [x] Define `ExpenseInput` and `ExpenseOutput` schemas
+    - [x] Implement `extract_expense` node with base64 decoding support
+    - [x] Implement `route_expense` node
+    - [x] Implement `auto_approve` node
+    - [x] Implement `risk_reviewer` (`LlmAgent` node)
+    - [x] Implement `human_review` node with `RequestInput`
+    - [x] Implement `finalize_expense` node
+    - [x] Wire up the `Workflow` edges and instantiate `app`
+- [ ] Verify
+    - [ ] Run `agents-cli lint`
+    - [ ] Run smoke tests for both under-threshold and above-threshold inputs

@@ -1,0 +1,32 @@
+{"display":"hello","timestamp":1781626171042,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects"}
+{"display":"switch model","timestamp":1781626212920,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"switch modelyes","timestamp":1781626227266,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"ok","timestamp":1781626236399,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"logout","timestamp":1781626322790,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"yes i trust this folder","timestamp":1781626436814,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"yes","timestamp":1781626446810,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"ok","timestamp":1781626467448,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"1","timestamp":1781626539643,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"lets make this ore ui ux and ,add more easy usable ui","timestamp":1781626722653,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"lets make the ui more responsive","timestamp":1781628227324,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"run again","timestamp":1781628274037,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"Give me a famous quote on Artificial Intelligence and who said that?","timestamp":1781628377204,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"Here is a famous quote on Artificial Intelligence:                                                                           \n                                                                                                                               \n  │ \"Artificial intelligence is the new electricity.\"                                                                          \n  │ — Andrew Ng","timestamp":1781628371042,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"settings","timestamp":1781628456520,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"config","timestamp":1781628472906,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"Settings\n  Search:  \n          ────────────────────\n\u003e Animation Speed      medium\n  Artifact Review      asks for review\n  Color Scheme         dark\n  Editor               auto ($EDITOR)\n  Enable Telemetry     on\n  Non-Workspace Access off\n  Notifications        off\n  Rendering Mode       native terminal (inline)\n  Sandbox Mode         off\n  Show Feedback Survey on\n  Show Tips            on\n  Tool Permission      request-review\n  Use AI Credits       off\n  Verbosity            high","timestamp":1781628502658,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"{\n      \"colorScheme\": \"dark\",\n      \"model\": \"Gemini 3.5 Flash (High)\",\n      \"statusLine\": {\n        \"type\": \"\",\n        \"command\": \"\",\n        \"enabled\": true\n      },\n      \"trustedWorkspaces\": [\n        \"/Users/romin/antigravity-cli-projects\",\n        \"/Users/romin/agy-cli-projects\"\n      ]\n    }","timestamp":1781628516026,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"Tool Permission\n  \u003e request-review (current)\n    proceed-in-sandbox\n    always-proceed\n    strict","timestamp":1781628532783,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"agy --help","timestamp":1781628556948,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"agy -p \"What is the gcloud command to deploy to Cloud Run\"","timestamp":1781628569470,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"$ agy --model \"Gemini 3.5 Flash (Low)\"","timestamp":1781628594297,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"config","timestamp":1781628641999,"workspace":"C:\\Users\\NETCOM\\agy-cli-projects","conversationId":"6b284218-b68c-4df8-b633-5aca70fd92a5"}
+{"display":"/mcp","timestamp":1781630152340,"workspace":"C:\\Users\\NETCOM","type":"slash_command"}
+{"display":"how to fix that","timestamp":1781630187971,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}
+{"display":"i will share the api key with you","timestamp":1781630221329,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}
+{"display":"push this to github","timestamp":1781630386718,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}
+{"display":"yes","timestamp":1781630408128,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}
+{"display":"https://github.com/shibinsp45","timestamp":1781632472615,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}
+{"display":"https://github.com/shibinsp45/aura-productivity-sanctuary.git","timestamp":1781632531726,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}
+{"display":"run the project","timestamp":1781632615829,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}
+{"display":"make sure the ui is resposive for mobile and tab also and make all the elements are properly aligned","timestamp":1781632670462,"workspace":"C:\\Users\\NETCOM","conversationId":"d580aa81-0e52-43cd-b1e3-5e02cfa04729"}

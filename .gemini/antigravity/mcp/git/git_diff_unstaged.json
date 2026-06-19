@@ -1,0 +1,1 @@
+{"name":"git_diff_unstaged","description":"Shows changes in the working directory that are not yet staged","parameters":{"properties":{"context_lines":{"default":3,"title":"Context Lines","type":"integer"},"repo_path":{"title":"Repo Path","type":"string"}},"required":["repo_path"],"title":"GitDiffUnstaged","type":"object"}}

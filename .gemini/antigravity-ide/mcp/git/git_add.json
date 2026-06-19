@@ -1,0 +1,1 @@
+{"name":"git_add","description":"Adds file contents to the staging area","parameters":{"properties":{"files":{"items":{"type":"string"},"title":"Files","type":"array"},"repo_path":{"title":"Repo Path","type":"string"}},"required":["repo_path","files"],"title":"GitAdd","type":"object"}}

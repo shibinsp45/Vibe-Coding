@@ -1,0 +1,19 @@
+Agents CLI v0.5.0
+Info: --agent not specified. Defaulting to 'adk' in auto-approve mode.
+Info: Prototype mode: using deployment_target='none'.
+> Verifying GCP credentials...
+> ⚠️  Looks like you are not authenticated with Google Cloud.
+Please run: `gcloud auth login --update-adc`
+Then set your project: `gcloud config set project YOUR_PROJECT_ID`
+> Continuing with template processing...
+
+✅ Success! Your agent project is ready.
+
+📖 Documentation
+   README:    cat weather-assistant/README.md
+
+💡 Tip
+   Add a deployment target later with: agents-cli scaffold enhance
+
+🚀 Get Started
+   cd weather-assistant && agents-cli install && agents-cli playground

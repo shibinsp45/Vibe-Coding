@@ -1,0 +1,16 @@
+{
+    "mcpServers":  {
+                       "git":  {
+                                   "args":  [
+                                                "mcp-server-git"
+                                            ],
+                                   "command":  "uvx",
+                                   "disabled":  false
+                               },
+                       "google-developer-knowledge":  {
+                                                          "authProviderType":  "google_credentials",
+                                                          "disabled":  false,
+                                                          "serverUrl":  "https://developerknowledge.googleapis.com/mcp"
+                                                      }
+                   }
+}

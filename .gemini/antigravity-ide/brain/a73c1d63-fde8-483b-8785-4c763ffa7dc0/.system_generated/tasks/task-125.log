@@ -1,0 +1,20 @@
+{
+    "mcpServers":  {
+                       "git":  {
+                                   "args":  [
+                                                "mcp-server-git"
+                                            ],
+                                   "command":  "C:\\Users\\NETCOM\\.local\\bin\\uvx.exe",
+                                   "disabled":  false,
+                                   "env":  {
+                                               "GIT_PYTHON_GIT_EXECUTABLE":  "C:\\Program Files\\Git\\cmd\\git.exe",
+                                               "PATH":  "C:\\Users\\NETCOM\\.local\\bin;C:\\Program Files\\Git\\cmd;C:\\Windows\\System32"
+                                           }
+                               },
+                       "google-developer-knowledge":  {
+                                                          "authProviderType":  "google_credentials",
+                                                          "disabled":  false,
+                                                          "serverUrl":  "https://developerknowledge.googleapis.com/mcp"
+                                                      }
+                   }
+}

@@ -1,0 +1,11 @@
+{
+  "remote_agent_runtime_id": "None",
+  "deployment_timestamp": "None",
+  "pending_operation": {
+    "operation_name": "projects/134239022091/locations/us-east1/reasoningEngines/5793986473728409600/operations/534941337812729856",
+    "project": "vibe-coding-499608",
+    "location": "us-east1",
+    "deployment_target": "agent_runtime",
+    "started_at": "2026-06-19T12:59:30.357112+00:00"
+  }
+}

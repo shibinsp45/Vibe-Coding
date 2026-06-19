@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-18T22:16:07+05:30
+Prompt: Check fast_api_app startup output
+
+[2026-06-18T22:16:07+05:30] Timer fired.

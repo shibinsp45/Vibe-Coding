@@ -1,0 +1,66 @@
+Downloading cpython-3.14.6-windows-x86_64-none (download) (21.5MiB)
+ Downloaded cpython-3.14.6-windows-x86_64-none (download)
+Downloading pywin32 (6.7MiB)
+Downloading cryptography (3.6MiB)
+Downloading pydantic-core (2.0MiB)
+ Downloaded pydantic-core
+ Downloaded cryptography
+ Downloaded pywin32
+Installed 35 packages in 865ms
+Traceback (most recent call last):
+  File "C:\Users\NETCOM\AppData\Local\uv\cache\archive-v0\bDf5QYigrinOuX5X\Lib\site-packages\git\__init__.py", line 296, in <module>
+    refresh()
+    ~~~~~~~^^
+  File "C:\Users\NETCOM\AppData\Local\uv\cache\archive-v0\bDf5QYigrinOuX5X\Lib\site-packages\git\__init__.py", line 287, in refresh
+    if not Git.refresh(path=path):
+           ~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Users\NETCOM\AppData\Local\uv\cache\archive-v0\bDf5QYigrinOuX5X\Lib\site-packages\git\cmd.py", line 864, in refresh
+    raise ImportError(err)
+ImportError: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "<frozen runpy>", line 203, in _run_module_as_main
+  File "<frozen runpy>", line 88, in _run_code
+  File "C:\Users\NETCOM\AppData\Local\uv\cache\archive-v0\bDf5QYigrinOuX5X\Scripts\mcp-server-git.exe\__main__.py", line 4, in <module>
+    from mcp_server_git import main
+  File "C:\Users\NETCOM\AppData\Local\uv\cache\archive-v0\bDf5QYigrinOuX5X\Lib\site-packages\mcp_server_git\__init__.py", line 5, in <module>
+    from .server import serve
+  File "C:\Users\NETCOM\AppData\Local\uv\cache\archive-v0\bDf5QYigrinOuX5X\Lib\site-packages\mcp_server_git\server.py", line 16, in <module>
+    import git
+  File "C:\Users\NETCOM\AppData\Local\uv\cache\archive-v0\bDf5QYigrinOuX5X\Lib\site-packages\git\__init__.py", line 298, in <module>
+    raise ImportError("Failed to initialize: {0}".format(_exc)) from _exc
+ImportError: Failed to initialize: Bad git executable.
+The git executable must be specified in one of the following ways:
+    - be included in your $PATH
+    - be set via $GIT_PYTHON_GIT_EXECUTABLE
+    - explicitly set via git.refresh(<full-path-to-git-executable>)
+
+All git commands will error until this is rectified.
+
+This initial message can be silenced or aggravated in the future by setting the
+$GIT_PYTHON_REFRESH environment variable. Use one of the following values:
+    - quiet|q|silence|s|silent|none|n|0: for no message or exception
+    - warn|w|warning|log|l|1: for a warning message (logging level CRITICAL, displayed by default)
+    - error|e|exception|raise|r|2: for a raised exception
+
+Example:
+    export GIT_PYTHON_REFRESH=quiet
+

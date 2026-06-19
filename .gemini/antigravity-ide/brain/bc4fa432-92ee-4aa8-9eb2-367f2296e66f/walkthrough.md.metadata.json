@@ -1,0 +1,5 @@
+{
+  "artifactType": "ARTIFACT_TYPE_WALKTHROUGH",
+  "summary": "Walkthrough for the ambient expense-approval agent using the ADK 2.0 Graph Workflow API. Explains the step-by-step graph topology and how to use the web UI/playground to verify the human-in-the-loop flow.",
+  "updatedAt": "2026-06-18T16:49:11.339590500Z"
+}

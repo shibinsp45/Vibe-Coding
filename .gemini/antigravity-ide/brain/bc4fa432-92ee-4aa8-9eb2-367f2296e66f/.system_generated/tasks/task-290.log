@@ -1,0 +1,136 @@
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-18 22:20:40,768 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-18 22:20:40,768 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent
+2026-06-18 22:20:40,769 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent
+C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [20912]
+INFO:     Waiting for application startup.
+
++-----------------------------------------------------------------------------+
+| ADK Web Server started                                                      |
+|                                                                             |
+| For local testing, access at http://127.0.0.1:8080.                         |
++-----------------------------------------------------------------------------+
+
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)
+2026-06-18 22:21:15,087 - INFO - local_storage.py:64 - Creating local session service at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent\.adk\session.db
+2026-06-18 22:21:15,116 - INFO - api_server.py:860 - New session created: 8c18534a-946c-403a-b54e-5a24cc4cae5e
+INFO:     127.0.0.1:52595 - "POST /apps/expense_agent/users/cli-user/sessions HTTP/1.1" 200 OK
+2026-06-18 22:21:15,137 - INFO - envs.py:83 - Loaded .env file for expense_agent at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.env
+2026-06-18 22:21:15,138 - INFO - envs.py:83 - Loaded .env file for expense_agent at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.env
+2026-06-18 22:21:27,166 - WARNING - agent.py:45 - Could not load application default credentials: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.. If using Google AI Studio, make sure GEMINI_API_KEY is set.
+2026-06-18 22:21:27,172 - WARNING - runners.py:415 - App name mismatch detected. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent".
+2026-06-18 22:21:27,188 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\utils\_telemetry_context.py
+2026-06-18 22:21:27,238 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\anyio\_backends\_asyncio.py
+INFO:     127.0.0.1:52596 - "POST /run_sse HTTP/1.1" 200 OK
+2026-06-18 22:21:27,261 - INFO - local_storage.py:64 - Creating local session service at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\app\.adk\session.db
+2026-06-18 22:21:27,331 - ERROR - api_server.py:1582 - Error in event_generator: Session not found: 8c18534a-946c-403a-b54e-5a24cc4cae5e. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent". Ensure the runner app_name matches that directory or pass app_name explicitly when constructing the runner. The mismatch prevents the runner from locating the session. To automatically create a session when missing, set auto_create_session=True when constructing the runner.
+Traceback (most recent call last):
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py", line 1554, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 1054, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 477, in _run_node_async
+    session = await self._get_or_create_session(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        user_id=user_id, session_id=session_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 881, in _get_or_create_session
+    raise SessionNotFoundError(message)
+google.adk.errors.session_not_found_error.SessionNotFoundError: Session not found: 8c18534a-946c-403a-b54e-5a24cc4cae5e. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent". Ensure the runner app_name matches that directory or pass app_name explicitly when constructing the runner. The mismatch prevents the runner from locating the session. To automatically create a session when missing, set auto_create_session=True when constructing the runner.
+INFO:     127.0.0.1:61812 - "GET /dev-ui/?app=expense_agent HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61812 - "GET /dev-ui/chunk-TPDTRWWV.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64616 - "GET /dev-ui/chunk-ZMOC4H7T.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /dev-ui/chunk-F57TI45K.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63459 - "GET /dev-ui/chunk-TNJPXCAB.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61500 - "GET /dev-ui/chunk-JHZIBEJC.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55505 - "GET /dev-ui/chunk-W7PRDKNL.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61812 - "GET /dev-ui/chunk-DRBE27N3.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61500 - "GET /dev-ui/chunk-PRKFGJVH.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /dev-ui/chunk-VDPKVNDJ.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63459 - "GET /dev-ui/chunk-WXI2IBAH.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64616 - "GET /dev-ui/polyfills-5CFQRCPP.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /dev-ui/main-3CUQG2IN.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61812 - "GET /dev-ui/styles-LBC36Z6S.css HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55505 - "GET /dev-ui/chunk-EGBSMT36.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61500 - "GET /dev-ui/chunk-JRNAXTJ7.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /dev-ui/chunk-WBLSVR3V.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61812 - "GET /dev-ui/chunk-ASJUXEUE.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63459 - "GET /dev-ui/chunk-GP6TCC26.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64616 - "GET /dev-ui/chunk-QFMJV7VH.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63459 - "GET /dev-ui/chunk-2SRK2U7X.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /dev-ui/chunk-RMXJBC7V.js HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63459 - "GET /dev-ui/assets/config/runtime-config.json HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63459 - "GET /dev-ui/prism-dark.css HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:61500 - "GET /list-apps?relative_path=./ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55505 - "GET /version HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55505 - "GET /dev-ui/assets/ADK-512-color.svg HTTP/1.1" 200 OK
+2026-06-18 22:22:00,909 - INFO - runners.py:2184 - Closing runner...
+2026-06-18 22:22:00,910 - INFO - runners.py:2197 - Runner closed.
+2026-06-18 22:22:00,919 - INFO - envs.py:83 - Loaded .env file for expense_agent at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.env
+2026-06-18 22:22:00,923 - INFO - envs.py:83 - Loaded .env file for expense_agent at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.env
+2026-06-18 22:22:13,014 - WARNING - agent.py:45 - Could not load application default credentials: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.. If using Google AI Studio, make sure GEMINI_API_KEY is set.
+2026-06-18 22:22:13,032 - WARNING - runners.py:415 - App name mismatch detected. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent".
+INFO:     127.0.0.1:61500 - "GET /dev/apps/expense_agent/build_graph_image?dark_mode=false HTTP/1.1" 200 OK
+INFO:     127.0.0.1:63459 - "GET /dev/apps/expense_agent/build_graph_image?dark_mode=true HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /dev/apps/expense_agent/builder?ts=1781801520904 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55505 - "GET /dev/apps/expense_agent/build_graph HTTP/1.1" 200 OK
+INFO:     127.0.0.1:64616 - "GET /dev/apps/expense_agent/eval_sets HTTP/1.1" 200 OK
+INFO:     127.0.0.1:60424 - "GET /dev/apps/expense_agent/eval_results HTTP/1.1" 200 OK
+INFO:     127.0.0.1:61812 - "GET /dev-ui/adk_favicon.svg HTTP/1.1" 200 OK
+INFO:     127.0.0.1:54135 - "GET /apps/expense_agent/users/user/sessions HTTP/1.1" 200 OK
+2026-06-18 22:23:16,312 - INFO - api_server.py:860 - New session created: 64690381-13fc-446a-9697-05de2fa40db9
+INFO:     127.0.0.1:56399 - "POST /apps/expense_agent/users/user/sessions HTTP/1.1" 200 OK
+INFO:     127.0.0.1:56399 - "POST /run_sse HTTP/1.1" 200 OK
+2026-06-18 22:23:16,353 - ERROR - api_server.py:1582 - Error in event_generator: Session not found: 64690381-13fc-446a-9697-05de2fa40db9. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent". Ensure the runner app_name matches that directory or pass app_name explicitly when constructing the runner. The mismatch prevents the runner from locating the session. To automatically create a session when missing, set auto_create_session=True when constructing the runner.
+Traceback (most recent call last):
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py", line 1554, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 1054, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 477, in _run_node_async
+    session = await self._get_or_create_session(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        user_id=user_id, session_id=session_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 881, in _get_or_create_session
+    raise SessionNotFoundError(message)
+google.adk.errors.session_not_found_error.SessionNotFoundError: Session not found: 64690381-13fc-446a-9697-05de2fa40db9. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent". Ensure the runner app_name matches that directory or pass app_name explicitly when constructing the runner. The mismatch prevents the runner from locating the session. To automatically create a session when missing, set auto_create_session=True when constructing the runner.
+INFO:     127.0.0.1:56399 - "GET /dev/apps/expense_agent/debug/trace/session/64690381-13fc-446a-9697-05de2fa40db9 HTTP/1.1" 200 OK
+INFO:     127.0.0.1:55223 - "POST /run_sse HTTP/1.1" 200 OK
+2026-06-18 22:24:02,597 - ERROR - api_server.py:1582 - Error in event_generator: Session not found: 64690381-13fc-446a-9697-05de2fa40db9. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent". Ensure the runner app_name matches that directory or pass app_name explicitly when constructing the runner. The mismatch prevents the runner from locating the session. To automatically create a session when missing, set auto_create_session=True when constructing the runner.
+Traceback (most recent call last):
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\cli\api_server.py", line 1554, in event_generator
+    async for event in agen:
+    ...<25 lines>...
+        yield f"data: {sse_event}\n\n"
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 1054, in run_async
+    async for event in agen:
+      yield event
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 477, in _run_node_async
+    session = await self._get_or_create_session(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        user_id=user_id, session_id=session_id
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\runners.py", line 881, in _get_or_create_session
+    raise SessionNotFoundError(message)
+google.adk.errors.session_not_found_error.SessionNotFoundError: Session not found: 64690381-13fc-446a-9697-05de2fa40db9. The runner is configured with app name "app", but the root agent was loaded from "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent", which implies app name "expense_agent". Ensure the runner app_name matches that directory or pass app_name explicitly when constructing the runner. The mismatch prevents the runner from locating the session. To automatically create a session when missing, set auto_create_session=True when constructing the runner.
+INFO:     127.0.0.1:55223 - "GET /dev/apps/expense_agent/debug/trace/session/64690381-13fc-446a-9697-05de2fa40db9 HTTP/1.1" 200 OK
+2026-06-18 22:25:49,446 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\requests\certs.py
+2026-06-18 22:26:46,657 - INFO - agent_change_handler.py:43 - Change detected in agents directory: C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\expense_agent\agent.py

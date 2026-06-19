@@ -1,0 +1,5 @@
+Successfully scheduled one-shot timer.
+Expected to fire at: 2026-06-18T22:15:26+05:30
+Prompt: Check run test output
+
+[2026-06-18T22:15:26+05:30] Timer fired.

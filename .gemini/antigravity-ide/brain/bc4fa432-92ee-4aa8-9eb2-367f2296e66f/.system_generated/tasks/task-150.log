@@ -1,0 +1,33 @@
+  ▸ uv sync --dev --extra lint
+Resolved 156 packages in 1ms
+Checked 125 packages in 13ms
+  ▸ uv run ruff check . --fix
+Found 1 error (1 fixed, 0 remaining).
+  ▸ uv run ruff format .
+2 files reformatted, 6 files left unchanged
+  ▸ uv run codespell
+  ▸ uv run ty check .
+error[unknown-argument]: Argument `state` does not match any known parameter
+   --> expense_agent\agent.py:136:34
+    |
+136 |     return Event(output=expense, state={"expense": expense})
+    |                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^
+    |
+
+error[unknown-argument]: Argument `route` does not match any known parameter
+   --> expense_agent\agent.py:143:41
+    |
+143 |         return Event(output=node_input, route="under_threshold")
+    |                                         ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+
+error[unknown-argument]: Argument `route` does not match any known parameter
+   --> expense_agent\agent.py:144:37
+    |
+144 |     return Event(output=node_input, route="above_threshold")
+    |                                     ^^^^^^^^^^^^^^^^^^^^^^^
+    |
+
+Found 3 diagnostics
+agents-cli v0.5.0
+Error: ty type check failed (exit code 1)

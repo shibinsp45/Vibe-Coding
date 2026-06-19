@@ -1,0 +1,7 @@
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+    import google.auth; print(google.auth.default())
+                              ~~~~~~~~~~~~~~~~~~~^^
+  File "C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\auth\_default.py", line 748, in default
+    raise exceptions.DefaultCredentialsError(_CLOUD_SDK_MISSING_CREDENTIALS)
+google.auth.exceptions.DefaultCredentialsError: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.

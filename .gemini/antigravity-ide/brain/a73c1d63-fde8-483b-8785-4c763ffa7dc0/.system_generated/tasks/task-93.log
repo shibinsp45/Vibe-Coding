@@ -1,0 +1,11 @@
+downloading uv 0.11.21 (x86_64-pc-windows-msvc)
+installing to C:\Users\NETCOM\.local\bin
+  uv.exe
+  uvx.exe
+  uvw.exe
+everything's installed!
+
+To add C:\Users\NETCOM\.local\bin to your PATH, either restart your shell or run:
+
+    set Path=C:\Users\NETCOM\.local\bin;%Path%   (cmd)
+    $env:Path = "C:\Users\NETCOM\.local\bin;$env:Path"   (powershell)

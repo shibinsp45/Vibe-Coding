@@ -1,0 +1,7 @@
+
+
+CommandLine : "node"   "C:\Users\NETCOM\AppData\Local\npm-cache\_npx\e5196fa6dc3cecbc\node_modules\.bin\\..\http-server
+              \bin\http-server" -p 3000 -c-1
+
+
+

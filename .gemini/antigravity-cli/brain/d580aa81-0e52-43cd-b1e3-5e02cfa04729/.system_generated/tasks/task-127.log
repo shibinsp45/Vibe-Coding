@@ -1,0 +1,5 @@
+warning: in the working copy of 'styles.css', LF will be replaced by CRLF the next time Git touches it
+[main c6cdf55] Refined styling responsiveness for mobile task inputs and pomo mode selector
+ 1 file changed, 27 insertions(+)
+To https://github.com/shibinsp45/aura-productivity-sanctuary.git
+   ec36e0e..c6cdf55  main -> main

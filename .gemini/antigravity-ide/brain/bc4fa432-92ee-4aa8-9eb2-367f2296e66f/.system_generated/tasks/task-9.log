@@ -1,0 +1,199 @@
+Setting up...
+
+ █▀█ █▀▀ █▀▀ █▄ █ ▀█▀ █▀   █▀▀ █  █
+ █▀█ █▄█ ██▄ █ ▀█  █  ▄█   █▄▄ █▄ █
+
+ Skills up. Ship faster.
+
+ 1. Authentication
+ ─────────────────
+
+  Not authenticated. Run with --interactive (-i) to authenticate interactively.
+
+ 2. CLI Installation
+ ───────────────────
+
+  ▸ uv tool install google-agents-cli
+  Already installed and up to date.
+
+ 3. Skills Installation
+ ──────────────────────
+
+  ▸ npx -y skills list --json
+  ▸ npx -y skills@1.4.8 add https://github.com/google/agents-cli -y -g
+  T   skills 
+  |
+  |  Tip: use the --yes (-y) and --global (-g) flags to install without prompts.
+  |
+  o  Source: https://github.com/google/agents-cli.git
+  |
+  •  Cloning repositoryo  Cloning repositoryO  Cloning repository0  Cloning repository•  Cloning repositoryo  Cloning repositoryO  Cloning repository0  Cloning repository•  Cloning repository.o  Cloning repository.O  Cloning repository.0  Cloning repository.•  Cloning repository.o  Cloning repository.O  Cloning repository.0  Cloning repository.•  Cloning repository..o  Cloning repository..O  Cloning repository..0  Cloning repository..•  Cloning repository..o  Cloning repository..O  Cloning repository..0  Cloning repository..•  Cloning repository...o  Cloning repository...O  Cloning repository...0  Cloning repository...•  Cloning repository...o  Cloning repository...O  Cloning repository...0  Cloning repository...•  Cloning repository...o  Repository cloned
+  |
+  o  Found 7 skills
+  |
+  •  Installing all 7 skills
+  |
+  o  45 agents
+  |
+  •  Installing to: Antigravity, Gemini CLI
+  |
+  o  Installation Summary ----------------------------------------+
+  |                                                               |
+  |  ~\.agents\skills\google-agents-cli-adk-code                  |
+  |    copy → Antigravity, Gemini CLI, Amp, Cline, Codex +7 more  |
+  |    overwrites: Cline, Warp                                    |
+  |                                                               |
+  |  ~\.agents\skills\google-agents-cli-deploy                    |
+  |    copy → Antigravity, Gemini CLI, Amp, Cline, Codex +7 more  |
+  |    overwrites: Cline, Warp                                    |
+  |                                                               |
+  |  ~\.agents\skills\google-agents-cli-eval                      |
+  |    copy → Antigravity, Gemini CLI, Amp, Cline, Codex +7 more  |
+  |    overwrites: Cline, Warp                                    |
+  |                                                               |
+  |  ~\.agents\skills\google-agents-cli-observability             |
+  |    copy → Antigravity, Gemini CLI, Amp, Cline, Codex +7 more  |
+  |    overwrites: Cline, Warp                                    |
+  |                                                               |
+  |  ~\.agents\skills\google-agents-cli-publish                   |
+  |    copy → Antigravity, Gemini CLI, Amp, Cline, Codex +7 more  |
+  |    overwrites: Cline, Warp                                    |
+  |                                                               |
+  |  ~\.agents\skills\google-agents-cli-scaffold                  |
+  |    copy → Antigravity, Gemini CLI, Amp, Cline, Codex +7 more  |
+  |    overwrites: Cline, Warp                                    |
+  |                                                               |
+  |  ~\.agents\skills\google-agents-cli-workflow                  |
+  |    copy → Antigravity, Gemini CLI, Amp, Cline, Codex +7 more  |
+  |    overwrites: Cline, Warp                                    |
+  |                                                               |
+  +---------------------------------------------------------------+
+  |
+  o  Security Risk Assessments -----------------------------------------------------+
+  |                                                                                 |
+  |                                   Gen               Socket            Snyk      |
+  |  google-agents-cli-adk-code       Safe              0 alerts          Med Risk  |
+  |  google-agents-cli-deploy         Safe              0 alerts          Med Risk  |
+  |  google-agents-cli-eval           Safe              0 alerts          Med Risk  |
+  |  google-agents-cli-observability  Safe              0 alerts          Low Risk  |
+  |  google-agents-cli-publish        Safe              0 alerts          Med Risk  |
+  |  google-agents-cli-scaffold       Safe              0 alerts          Med Risk  |
+  |  google-agents-cli-workflow       Safe              0 alerts          Med Risk  |
+  |                                                                                 |
+  |  Details: https://skills.sh/google/agents-cli                                   |
+  |                                                                                 |
+  +---------------------------------------------------------------------------------+
+  |
+  •  Installing skillso  Installing skillsO  Installing skills0  Installing skills•  Installing skillso  Installation complete
+  
+  |
+  o  Installed 7 skills -----------------------------------+
+  |                                                        |
+  |  ✓ google-agents-cli-adk-code (copied)                 |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |    → ~\.agents\skills\google-agents-cli-adk-code       |
+  |  ✓ google-agents-cli-deploy (copied)                   |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |    → ~\.agents\skills\google-agents-cli-deploy         |
+  |  ✓ google-agents-cli-eval (copied)                     |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |    → ~\.agents\skills\google-agents-cli-eval           |
+  |  ✓ google-agents-cli-observability (copied)            |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |    → ~\.agents\skills\google-agents-cli-observability  |
+  |  ✓ google-agents-cli-publish (copied)                  |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |    → ~\.agents\skills\google-agents-cli-publish        |
+  |  ✓ google-agents-cli-scaffold (copied)                 |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |    → ~\.agents\skills\google-agents-cli-scaffold       |
+  |  ✓ google-agents-cli-workflow (copied)                 |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |    → ~\.agents\skills\google-agents-cli-workflow       |
+  |                                                        |
+  +--------------------------------------------------------+
+  |
+  —  Done!  Review skills before use; they run with full agent permissions.
+  Linked 7 skill(s) into ~/.gemini\config\skills
+  Linked 7 skill(s) into ~/.gemini\antigravity-cli\skills
+
+ 4. Summary
+ ──────────
+
+  Auth:   Not authenticated
+  CLI:    agents-cli installed
+  Skills: Installed
+  Scope:  global
+
+  Done.
+

@@ -1,0 +1,34 @@
+
+Authentication
+
+Authentication
+
+  Choose an authentication method:
+
+  1. Google Cloud (ADC)
+     Use gcloud Application Default Credentials.
+     Best for: production workloads, full GCP access
+
+  2. Gemini API Key
+     Enter an API key from AI Studio (aistudio.google.com).
+     Best for: getting started, personal projects
+
+  3. Skip
+
+  Enter your choice [1]: 
+  No valid Application Default Credentials found.
+
+  The Google Cloud CLI (gcloud) is not installed.
+
+  To install it:
+
+    https://cloud.google.com/sdk/docs/install
+
+  After installing, run:
+
+    gcloud auth application-default login
+
+  Then re-run setup.
+
+  Continuing without authentication. Run 'agents-cli login' later.
+

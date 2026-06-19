@@ -1,0 +1,1 @@
+{"name":"git_show","description":"Shows the contents of a commit","parameters":{"properties":{"repo_path":{"title":"Repo Path","type":"string"},"revision":{"title":"Revision","type":"string"}},"required":["repo_path","revision"],"title":"GitShow","type":"object"}}

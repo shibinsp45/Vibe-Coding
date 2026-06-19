@@ -1,0 +1,8 @@
+
+Status
+
+Authentication
+
+  Not authenticated
+    Run 'agents-cli login -i' to authenticate.
+

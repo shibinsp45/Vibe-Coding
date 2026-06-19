@@ -1,0 +1,13 @@
+┌─────────────────────────────────────────────────────────────────────────────┐
+│ Starting your agent playground...                                           │
+│                                                                             │
+│ Running command:       uv run adk web . --host 127.0.0.1 --port 8080        │
+│ --allow_origins '*' --reload_agents                                         │
+│ Will be available at:  http://127.0.0.1:8080/dev-ui/?app=expense_agent      │
+└─────────────────────────────────────────────────────────────────────────────┘
+Usage: adk web [OPTIONS] [AGENTS_DIR]
+Try 'adk web --help' for help.
+
+Error: Got unexpected extra arguments (Dockerfile expense_agent GEMINI.md Makefile pyproject.toml README.md tests uv.lock)
+agents-cli v0.5.0
+Error: Failed to start playground (exit code 2)

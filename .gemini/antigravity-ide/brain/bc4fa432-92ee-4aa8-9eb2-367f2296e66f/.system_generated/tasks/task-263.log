@@ -1,0 +1,6 @@
+Warning: Could not obtain credentials: Your default credentials were not found. To set up Application Default Credentials, see https://cloud.google.com/docs/authentication/external/set-up-adc for more information.
+Querying remote agent: http://127.0.0.1:8080 (mode: adk)
+[user]: {"data": {"amount": 150.0, "submitter": "alice@company.com", "category": "software", "description": "IDE License", "date": "2026-06-06"}}
+agents-cli v0.5.0
+Error: Failed to run agent (HTTP 500):
+  Internal Server Error

@@ -1,0 +1,8 @@
+CLI version:        0.5.0
+CLI install path:   C:\Users\NETCOM\AppData\Roaming\uv\tools\google-agents-cli\Lib\site-packages\google\agents\cli
+OS info:            Windows-11-10.0.26200-SP0
+Installed skills:   none
+
+No agent project found in the current directory or any parent.
+  Run this command from within a project, or create one:
+    agents-cli create my-agent

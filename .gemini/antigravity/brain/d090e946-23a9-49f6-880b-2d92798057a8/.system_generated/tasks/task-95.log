@@ -1,0 +1,19 @@
+WARNING: The --reload flag is not supported on Windows because it forces Uvicorn to use SelectorEventLoop, which does not support subprocesses (needed for executing tools). Forcing --no-reload.
+2026-06-18 22:28:53,299 - INFO - service_factory.py:266 - Using in-memory memory service
+2026-06-18 22:28:53,299 - INFO - local_storage.py:88 - Using per-agent session storage rooted at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent
+2026-06-18 22:28:53,300 - INFO - local_storage.py:120 - Using per-agent artifact storage rooted at C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent
+C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\cli\fast_api.py:553: UserWarning: [EXPERIMENTAL] InMemoryCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  credential_service = InMemoryCredentialService()
+C:\Users\NETCOM\Desktop\Vibe Coding\ambient-expense-agent\.venv\Lib\site-packages\google\adk\auth\credential_service\in_memory_credential_service.py:33: UserWarning: [EXPERIMENTAL] BaseCredentialService: This feature is experimental and may change or be removed in future versions without notice. It may introduce breaking changes at any time.
+  super().__init__()
+INFO:     Started server process [22928]
+INFO:     Waiting for application startup.
+
++-----------------------------------------------------------------------------+
+| ADK Web Server started                                                      |
+|                                                                             |
+| For local testing, access at http://127.0.0.1:8080.                         |
++-----------------------------------------------------------------------------+
+
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8080 (Press CTRL+C to quit)

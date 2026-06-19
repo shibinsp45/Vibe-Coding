@@ -1,0 +1,74 @@
+
+
+Name                       : node
+Id                         : 12980
+PriorityClass              : Normal
+FileVersion                : 24.16.0
+HandleCount                : 241
+WorkingSet                 : 57036800
+PagedMemorySize            : 61050880
+PrivateMemorySize          : 61050880
+VirtualMemorySize          : 1273602048
+TotalProcessorTime         : 00:00:00.2343750
+SI                         : 3
+Handles                    : 241
+VM                         : 5568569344
+WS                         : 57036800
+PM                         : 61050880
+NPM                        : 45968
+Path                       : C:\Program Files\nodejs\node.exe
+Company                    : Node.js
+CPU                        : 0.234375
+ProductVersion             : 24.16.0
+Description                : Node.js JavaScript Runtime
+Product                    : Node.js
+__NounName                 : Process
+BasePriority               : 8
+ExitCode                   : 
+HasExited                  : False
+ExitTime                   : 
+Handle                     : 2652
+SafeHandle                 : Microsoft.Win32.SafeHandles.SafeProcessHandle
+MachineName                : .
+MainWindowHandle           : 0
+MainWindowTitle            : 
+MainModule                 : System.Diagnostics.ProcessModule (node.exe)
+MaxWorkingSet              : 1413120
+MinWorkingSet              : 204800
+Modules                    : {System.Diagnostics.ProcessModule (node.exe), System.Diagnostics.ProcessModule 
+                             (ntdll.dll), System.Diagnostics.ProcessModule (KERNEL32.DLL), 
+                             System.Diagnostics.ProcessModule (KERNELBASE.dll)...}
+NonpagedSystemMemorySize   : 45968
+NonpagedSystemMemorySize64 : 45968
+PagedMemorySize64          : 61050880
+PagedSystemMemorySize      : 339512
+PagedSystemMemorySize64    : 339512
+PeakPagedMemorySize        : 62566400
+PeakPagedMemorySize64      : 62566400
+PeakWorkingSet             : 61513728
+PeakWorkingSet64           : 61513728
+PeakVirtualMemorySize      : 1298767872
+PeakVirtualMemorySize64    : 5593735168
+PriorityBoostEnabled       : True
+PrivateMemorySize64        : 61050880
+PrivilegedProcessorTime    : 00:00:00.0468750
+ProcessName                : node
+ProcessorAffinity          : 255
+Responding                 : True
+SessionId                  : 3
+StartInfo                  : System.Diagnostics.ProcessStartInfo
+StartTime                  : 6/16/2026 10:47:05 PM
+SynchronizingObject        : 
+Threads                    : {12120, 1068, 13700, 3968...}
+UserProcessorTime          : 00:00:00.1875000
+VirtualMemorySize64        : 5568569344
+EnableRaisingEvents        : False
+StandardInput              : 
+StandardOutput             : 
+StandardError              : 
+WorkingSet64               : 57036800
+Site                       : 
+Container                  : 
+
+
+
